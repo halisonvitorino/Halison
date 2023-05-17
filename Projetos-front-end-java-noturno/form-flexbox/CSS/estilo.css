@@ -1,0 +1,41 @@
+body{
+    background-image: url("../imagens/planoFundo2.png");
+}
+
+button{
+    font-size: 20px;
+    color: rgb(49, 34, 218);
+    background-color: rgb(171, 116, 223);
+    width: 335px;
+    border-radius: 10px; /* curvatura da borda */
+    height: 35px; /* altura da caixa de texto */
+}
+
+.container{
+    margin: 30px 20%; /* vertical e horizontal */
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(99, 11, 172);
+}
+
+hr{
+    margin-bottom: 200px;
+}
+
+input{
+    height: 35px; /* altura da caixa de texto */
+    width: 300px; /* largura da caixa de texto */
+    background-color:rgb(229, 167, 241);
+    font-size: 20px;
+    border-radius: 10px; /* curvatura da borda */
+    padding: 0px 15px; /* margem internA */
+    color: rgb(49, 34, 218);
+    font-style: italic;
+}
