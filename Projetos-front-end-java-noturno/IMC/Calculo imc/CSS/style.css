@@ -1,0 +1,11 @@
+h1 {
+    color: #2d07b9;
+}
+
+.gradiente {
+    background-image: linear-gradient(90deg,  #292ccc 0%, #045812 20%);
+}
+
+.rotulo{
+    color: #2d07b9;
+}

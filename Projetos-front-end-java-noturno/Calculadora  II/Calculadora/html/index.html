@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alterar conteudo da pagina</title>
+  </head>
+  <body>
+    <!-- titulo do conteudo da pagina -->
+    <style>
+      h1 {
+        color: brown;
+      }
+    </style>
+    <h1 id="id1">0</h1>
+    <style>
+      h1 {
+        color: brown;
+      }
+    </style>
+    <h1 id="id2">0</h1>
+    <style>
+      h1 {
+        color: brown;
+      }
+    </style>
+    <h1 id="idResult">0</h1>
+    <hr />
+
+    <!-- fornulario -->
+    <form onsubmit="return false">
+      <label> Valor 1: </label><br />
+      <input type="text" id="idValor1" /><br /><br />
+      <label> Valor 2: </label><br />
+      <input type="text" id="idValor2" /><br /><br />
+    </form>
+    <div>
+      <button type="submit" id="id1">1</button>
+      <button type="submit" id="id2">2</button>
+      <button type="submit" id="id3">3</button>
+    <div>
+      <button type="submit" id="id4">4</button>
+      <button type="submit" id="id5">5</button>
+      <button type="submit" id="id1">6</button>
+    </div>
+      <button type="submit" id="id2">7</button>
+      <button type="submit" id="id3">8</button>
+      <button type="submit" id="id4">9</button>
+    </div>
+    <div>
+      <button type="submit" id="id5">0</button><br><br>
+    </div>
+    <div></div>
+    <div>
+      <button type="submit" id="idButton">Enviar</button>
+      <button type="submit" id="idSoma">Somar</button>
+      <button type="submit" id="idSub">Subtrair</button>
+      <button type="submit" id="idDiv">Dividir</button>
+      <button type="submit" id="idMult">Multiplicar</button>
+    </div>
+
+    <script src="javascript/javascript.js"></script>
+  </body>
+</html>
