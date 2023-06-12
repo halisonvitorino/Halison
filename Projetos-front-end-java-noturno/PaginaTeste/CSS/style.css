@@ -1,0 +1,12 @@
+.gradiente {
+    background-color: #1d2951;
+    background-image: linear-gradient(315deg, #1d2951 0%, #dbe7fc 74%);
+}
+
+
+.carousel-inner > .carousel-item > img {
+    width: 100%;
+    height: 100%
+  }
+
+
