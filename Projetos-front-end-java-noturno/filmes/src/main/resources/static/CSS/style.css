@@ -1,0 +1,7 @@
+body{
+    background-image: url("../imagens/planoFundo2.png");
+}
+
+.gradiente {
+    background-image: linear-gradient(90deg,  #292ccc 0%, #0d5f1b 20%);
+}
