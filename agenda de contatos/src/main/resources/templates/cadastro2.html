@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Cadastrar Pessoa Jurídica</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #064775;">
+      <a class="navbar-brand ms-5" href="#">MasterSystems</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation"></button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="/" aria-current="page">Home<span
+                class="visually-hidden">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- formulario -->
+  <main>
+    <div class="m-5">
+      <form class="row g-3" method="POST">
+        <div class="form-floating col-md-8">
+          <input type="text" class="form-control" id="idNome" name="nomePJ" required>
+          <label for="floatingInput">Nome da Empresa</label>
+        </div>
+        <div class="form-floating col-md-4">
+          <input type="text" class="form-control" id="idCnpj" name="cnpj" required>
+          <label for="floatingInput">CNPJ</label>
+        </div>
+        <div class=" form-floating col-md-6">
+          <input type="text" class="form-control" id="idEmail" name="emailPJ" required>
+          <label for="floatingInput">E-mail</label>
+        </div>
+        <div class="form-floating col-md-6">
+          <input type="text" class="form-control" id="idInscricao" name="inscricaoEstadual" required>
+          <label for="floatingInput">Inscrição Estadual</label>
+        </div>
+         <div class="form-floating col-md-6">
+          <input type="text" class="form-control" id="idSite" name="sitePJ" required>
+          <label for="floatingInput">Site</label>
+        </div>
+        <div class="form-floating col-md-2">
+          <input type="text" class="form-control" id="idCep" name="cepPJ" required>
+          <label for="floatingInput">Cep</label>
+        </div>
+        <div class="form-floating col-md-1">
+          <input type="text" class="form-control" id="idUf" name="ufPJ" required>
+          <label for="floatingInput">UF</label>
+        </div>
+        <div class="form-floating col-md-4">
+          <input type="text" class="form-control" id="idCidade" name="cidadePJ" required>
+          <label for="floatingInput">Cidade</label>
+        </div>
+        <div class="form-floating col-md-5">
+          <input type="text" class="form-control" id="idBairro" name="bairroPJ" required>
+          <label for="floatingInput">Bairro</label>
+        </div>
+        <div class="form-floating col-md-7">
+          <input type="text" class="form-control" id="idLogradouro" name="logradouroPJ" required>
+          <label for="floatingInput">Logradouro</label>
+        </div>
+        <div class="form-floating col-md-3">
+          <input type="text" class="form-control" id="idComplemento" name="complementoPJ" required>
+          <label for="floatingInput">Complemento</label>
+        </div>
+        <div class="form-floating col-md-2">
+          <input type="text" class="form-control" id="idNumero" name="numeroPJ" required>
+          <label for="floatingInput">Numero</label>
+        </div>
+        <div class="col-6">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="reset" class="btn btn-primary">Limpar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
