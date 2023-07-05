@@ -911,3 +911,11 @@ Caused by: java.lang.Exception: File not found: C:\Users\ALUNO\Documents\Halison
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	... 27 common frames omitted
+2023-06-30 20:11:21,517 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.helloworld:spring:0.0.1-SNAPSHOT @ C:\Users\ALUNO\Documents\Halison\eclipse-workspace-qua.209.058\spring\pom.xml.
+2023-06-30 20:11:25,287 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-30 20:11:25,309 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-30 20:11:25,313 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ALUNO\Documents\Halison\eclipse-workspace-qua.209.058\spring\src\test\resources
+2023-06-30 20:11:26,321 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.helloworld:spring:0.0.1-SNAPSHOT @ C:\Users\ALUNO\Documents\Halison\eclipse-workspace-qua.209.058\spring\pom.xml.
+2023-06-30 20:11:28,519 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-30 20:11:28,536 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-30 20:11:28,548 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\ALUNO\Documents\Halison\eclipse-workspace-qua.209.058\spring\src\test\resources
