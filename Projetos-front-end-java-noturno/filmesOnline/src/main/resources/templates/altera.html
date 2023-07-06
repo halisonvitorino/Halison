@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Cadastrar Filme</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #064775;">
+        <a class="navbar-brand ms-5" href="#">MasterSystems</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/" aria-current="page">Home<span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/cadastro">Cadastro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/lista">Lista de Filmes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+
+<!-- formulario -->
+  <main>
+      <div class="m-5">
+    <form class="row g-3"  method="POST">
+        <div class="col-md-6">
+          <label class="form-label">Gênero</label>
+          <input type="text" class="form-control" id="idGenero" name="genero" th:value="${filme.genero}">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Diretor</label>
+          <input type="text" class="form-control" id="idDiretor" name="diretor" th:value="${filme.diretor}">
+        </div>
+        <div class="col-12">
+          <label class="form-label">Titulo do Filme</label>
+          <input type="text" class="form-control" id="idTitulo" name="titulo" th:value="${filme.titulo}">
+        </div>
+        <div class="col-12">
+          <label class="form-label">Distribuidora</label>
+          <input type="text" class="form-control" id="idDistribuidora" name="distribuidora" th:value="${filme.distribuidora}">
+        </div>
+        <div class="col-md-6">
+          <label class="form-label">Produtora</label>
+          <input type="text" class="form-control" id="idProdutora" name="produtora" th:value="${filme.produtora}">
+        </div>
+        <div class="col-md-4">
+          <label class="form-label">Ano</label>
+          <input type="text" class="form-control" id="idAno" name="ano" th:value="${filme.ano}">
+        </div>
+        <div class="col-md-2">
+          <label class="form-label">Duração</label>
+          <input type="text" class="form-control" id="idDuracao" name="duracao" th:value="${filme.duracao}">
+        </div>
+        <div class="col-6">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="reset" class="btn btn-primary">Limpar</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
